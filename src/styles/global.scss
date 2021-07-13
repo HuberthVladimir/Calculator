@@ -1,0 +1,87 @@
+:root {
+   // THEME 1
+   //backgrounds
+   --very-dark-blue-main-background: #3a4764;
+   --very-dark-blue-toggler-background: #232c43;
+   --very-dark-blue-screen-background:#182034;
+
+   //keys
+   --dark-blue-key-background: #637097;
+   --dark-blue-key-shadow: #404e72;
+
+   --red-key-background: #d03f2f;
+   --dark-red-key-shadow: #93261a;
+
+   --light-grayish-orange-key-background: #eae3dc;
+   --grayish-orange-key-shadow:#b4a597;
+
+   //text
+   --very-dark-grayish-blue:#444b5a;
+   --white: #FFFFFF;
+
+   // THEME 2
+   //backgrounds
+   --light-gray-main-background: #e6e6e6;
+   --grayish-red-toggler-background: #d1cccc;
+   --very-light-gray-screen-background: #ededed;
+
+   
+   //keys
+   --dark-moderate-cyan-key-background: #377f86;
+   --very-dark-cyam-key-shadow: #1b5f65;
+   
+   --orange-key-background: #ca5502;
+   --dark-orange-key-shadow: #893901;
+
+   --light-grayish-yellow-key-background: #e5e4e1;
+   --dark-grayish-orange: #a69d91;
+
+   //text
+   --very-dark-grayish-yellow: #35352c;
+
+   // THEME 3
+   //backgrounds
+   --very-dark-violet-main-background: #160628;
+   --very-dark-violet-toogler-background: #1d0934;
+
+   //keys
+   --dark-violet-key-background: #58077d;
+   --vivid-magenta-key-shadow: #bc15f4;
+
+   --pure-cyan-key-background: #00e0d1;
+   --soft-cyan-key-shadow: #6cf9f2;
+
+   --very-dark-violet-key-background: #341c4f;
+   --dark-magenta-key-shadow: #871c9c;
+
+   //text
+   --light-yellow: #ffe53d;
+   --very-dark-blue: #1b2428;
+}
+
+html {
+   @media (max-width: 1080px) {
+      font-size: 93.75%;
+   }
+  
+   @media (max-width: 720px) {
+      font-size: 87.5%;
+   }
+}
+
+body, button, h1 {
+   font: 700 2rem 'Spartan', sans-serif;
+}
+
+html, body, #root {
+   height: 100%;
+}
+
+#root {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+
+//- Mobile: 375px
+//- Desktop: 1440px
