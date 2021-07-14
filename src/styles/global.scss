@@ -1,62 +1,66 @@
 :root {
    // THEME 1
    //backgrounds
-   --very-dark-blue-main-background: #3a4764;
-   --very-dark-blue-toggler-background: #232c43;
-   --very-dark-blue-screen-background:#182034;
+   --very-dark-blue-main-background: hsl(222, 26%, 31%);
+   --very-dark-blue-toggler-background: hsl(223, 31%, 20%);
+   --very-dark-blue-screen-background: hsl(224, 36%, 15%);
 
    //keys
-   --dark-blue-key-background: #637097;
-   --dark-blue-key-shadow: #404e72;
+   --dark-blue-key-background: hsl(225, 21%, 49%);
+   --dark-blue-key-shadow: hsl(224, 28%, 35%);
 
-   --red-key-background: #d03f2f;
-   --dark-red-key-shadow: #93261a;
+   --red-key-background: hsl(6, 63%, 50%);
+   --dark-red-key-shadow: hsl(6, 70%, 34%);
 
-   --light-grayish-orange-key-background: #eae3dc;
-   --grayish-orange-key-shadow:#b4a597;
+   --light-grayish-orange-key-background: hsl(30, 25%, 89%);
+   --grayish-orange-key-shadow: hsl(28, 16%, 65%);
 
    //text
-   --very-dark-grayish-blue:#444b5a;
+   --very-dark-grayish-blue:hsl(221, 14%, 31%);
    --white: #FFFFFF;
 
    // THEME 2
    //backgrounds
-   --light-gray-main-background: #e6e6e6;
-   --grayish-red-toggler-background: #d1cccc;
-   --very-light-gray-screen-background: #ededed;
+   --light-gray-main-background: hsl(0, 0%, 90%);
+   --grayish-red-toggler-background: hsl(0, 5%, 81%);
+   --very-light-gray-screen-background: hsl(0, 0%, 93%);
 
    
    //keys
-   --dark-moderate-cyan-key-background: #377f86;
-   --very-dark-cyam-key-shadow: #1b5f65;
+   --dark-moderate-cyan-key-background: hsl(185, 42%, 37%);
+   --very-dark-cyam-key-shadow: hsl(185, 58%, 25%);
    
-   --orange-key-background: #ca5502;
-   --dark-orange-key-shadow: #893901;
+   --orange-key-background: hsl(25, 98%, 40%);
+   --dark-orange-key-shadow: hsl(25, 99%, 27%);
 
-   --light-grayish-yellow-key-background: #e5e4e1;
-   --dark-grayish-orange: #a69d91;
+   --light-grayish-yellow-key-background: hsl(45, 7%, 89%);
+   --dark-grayish-orange: hsl(35, 11%, 61%);
 
    //text
-   --very-dark-grayish-yellow: #35352c;
+   --very-dark-grayish-yellow: hsl(60, 10%, 19%);
 
    // THEME 3
    //backgrounds
-   --very-dark-violet-main-background: #160628;
-   --very-dark-violet-toogler-background: #1d0934;
+   --very-dark-violet-main-background: hsl(268, 75%, 9%);
+   --very-dark-violet-toogler-background: hsl(268, 71%, 12%);
 
    //keys
-   --dark-violet-key-background: #58077d;
-   --vivid-magenta-key-shadow: #bc15f4;
+   --dark-violet-key-background: hsl(281, 89%, 26%);
+   --vivid-magenta-key-shadow: hsl(285, 91%, 52%);
 
-   --pure-cyan-key-background: #00e0d1;
-   --soft-cyan-key-shadow: #6cf9f2;
+   --pure-cyan-key-background: hsl(176, 100%, 44%);
+   --soft-cyan-key-shadow: hsl(177, 92%, 70%);
 
-   --very-dark-violet-key-background: #341c4f;
-   --dark-magenta-key-shadow: #871c9c;
+   --very-dark-violet-key-background: hsl(268, 47%, 21%);
+   --dark-magenta-key-shadow: hsl(290, 70%, 36%);
 
    //text
-   --light-yellow: #ffe53d;
-   --very-dark-blue: #1b2428;
+   --light-yellow: hsl(52, 100%, 62%);
+   --very-dark-blue: hsl(198, 20%, 13%);
+}
+
+* {
+   box-sizing: border-box;
 }
 
 html {
@@ -70,18 +74,13 @@ html {
 }
 
 body, button, h1 {
-   font: 700 2rem 'Spartan', sans-serif;
+   font: 700 2.286rem 'Spartan', sans-serif;
 }
 
 html, body, #root {
    height: 100%;
 }
 
-#root {
-   display: flex;
-   justify-content: center;
-   align-items: center;
+button {
+   cursor: pointer;
 }
-
-//- Mobile: 375px
-//- Desktop: 1440px

@@ -1,0 +1,24 @@
+.background {
+   height: 100%;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   gap: 1.5rem;
+   padding: 2rem;
+}
+
+.firstTheme {
+   background: var(--very-dark-blue-main-background);
+   color: var(--white);
+}
+
+.secondTheme {
+   background: var(--light-gray-main-background);
+   color: var(--very-dark-grayish-yellow);
+}
+
+.thirdTheme {
+   background: var(--very-dark-violet-main-background);
+   color: var(--light-yellow)
+}

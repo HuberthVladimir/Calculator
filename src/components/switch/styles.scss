@@ -1,0 +1,89 @@
+.wrapper {
+    margin: 0 auto;
+}
+
+.toggle_radio{
+  position: relative;
+  margin: 4px auto;
+  overflow: hidden;
+  padding: 0;
+  -webkit-border-radius: 50px;
+  -moz-border-radius: 50px;
+  border-radius: 50px;
+  display: flex;
+  flex-direction: row;
+  gap: 5px;
+  height: 26px;
+  width: 76px;
+}
+
+.wrapper > .firstTheme {
+  background: var(--very-dark-blue-toggler-background);
+}
+
+.wrapper > .secondTheme {
+  background: var(--grayish-red-toggler-background);
+}
+
+.wrapper > .thirdTheme {
+  background: var(--very-dark-violet-toogler-background);
+}
+
+.toggle_radio > * {
+  float: left;
+}
+
+.toggle_radio input[type=radio]{
+  display: none;
+}
+
+.toggle_radio label{
+  display: block;
+  width: 16px;
+  height: 16px;
+  margin: 3px 3px;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  border-radius: 50%;
+  cursor: pointer;
+  z-index: 1;
+}
+
+.toggle_option_slider{
+  width: 16px;
+  height: 16px;
+  position: absolute;
+  top: 5px;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  border-radius: 50%;
+  -webkit-transition: all .4s ease;
+  -moz-transition: all .4s ease;
+  -o-transition: all .4s ease;
+  -ms-transition: all .4s ease;
+  transition: all .4s ease;
+}
+ 
+#first_toggle:checked ~ .toggle_option_slider{
+  left: 5px;
+}
+
+#second_toggle:checked ~ .toggle_option_slider{
+  left: 30px;
+}
+
+#third_toggle:checked ~ .toggle_option_slider{
+  left: 57px;
+}
+
+#first_toggle:checked ~ .firstTheme {
+  background: var(--red-key-background)
+}
+
+#second_toggle:checked ~ .secondTheme {
+  background: var(--orange-key-background)
+}
+
+#third_toggle:checked ~ .thirdTheme {
+  background: var(--pure-cyan-key-background)
+}
