@@ -1,0 +1,23 @@
+.backgroundKey {
+   max-width: 500px;
+   width: 100%;
+   height: auto;
+   padding: 1.5rem;
+   border-radius: 1rem;
+   display: grid;
+   gap: 1rem;
+   grid-template-columns: repeat(4, 1fr);
+   
+}
+
+.backgroundKey.firstTheme {
+   background: var(--very-dark-blue-toggler-background);
+}
+
+.backgroundKey.secondTheme {
+   background: var(--grayish-red-toggler-background);
+}
+
+.backgroundKey.thirdTheme {
+   background: var(--very-dark-violet-toogler-background);
+}

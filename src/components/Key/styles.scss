@@ -1,0 +1,70 @@
+.key{
+   width: 100%;
+   height: 4rem;
+   border-radius: 0.5rem;
+   border: 0;
+   font-size: 1.8rem;
+}
+
+//world keys
+.key.firstTheme {
+   color: var(--very-dark-grayish-blue);
+   background: var(--light-grayish-orange-key-background);
+   box-shadow: 0 5px 0 var(--grayish-orange-key-shadow);
+}
+
+.key.secondTheme {
+   color: var(--very-dark-grayish-yellow);
+   background: var(--light-grayish-yellow-key-background);
+   box-shadow: 0 5px 0 var(--dark-grayish-orange);
+}
+
+.key.thirdTheme {
+   background: var(--very-dark-violet-key-background);
+   box-shadow: 0 5px 0 var(--dark-magenta-key-shadow);
+}
+
+// del, reset and largue keys
+.key.largeKey{
+   grid-column: span 2;
+}
+
+.key.letterKey {
+   font-size: 1rem;
+   color: var(--white);
+}
+
+.letterKey.firstTheme {
+   background: var(--dark-blue-key-background);
+   box-shadow: 0 5px 0 var(--dark-blue-key-shadow);
+}
+
+.letterKey.secondTheme {
+   background: var(--dark-moderate-cyan-key-background);
+   box-shadow: 0 5px 0 var(--very-dark-cyam-key-shadow);
+}
+
+.letterKey.thirdTheme {
+   background: var(--dark-violet-key-background);
+   box-shadow: 0 5px 0 var(--vivid-magenta-key-shadow);
+}
+
+//equal Key
+.key.equalKey {
+   color: var(--white);
+}
+
+.equalKey.firstTheme {
+   background: var(--red-key-background);
+   box-shadow: 0 5px 0 var(--dark-red-key-shadow);
+}
+
+.equalKey.secondTheme {
+   background: var(--orange-key-background);
+   box-shadow: 0 5px 0 var(--dark-orange-key-shadow);
+}
+.equalKey.thirdTheme {
+   color: var(--very-dark-blue);
+   background: var(--pure-cyan-key-background);
+   box-shadow: 0 5px 0 var(--soft-cyan-key-shadow);
+}

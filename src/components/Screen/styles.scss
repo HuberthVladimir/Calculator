@@ -1,0 +1,21 @@
+section.screen {
+   max-width: 500px;
+   width: 100%;
+   height: 6rem;
+   border-radius: 1rem;
+   display: flex;
+   justify-content: flex-end;
+   align-items: center;
+   padding-right: 1.5rem;
+}
+
+.screen.firstTheme {
+   background: var(--very-dark-blue-screen-background)
+}
+
+.screen.secondTheme {
+   background: var(--very-light-gray-screen-background)
+}
+.screen.thirdTheme {
+   background: var(--very-dark-violet-toogler-background)
+}

@@ -1,8 +1,33 @@
-header {
+.header {
+   background: none;
+   max-width: 500px;
+   width: 100%;
    display: flex;
    justify-content: space-between;
+   align-items: center;
 
-   .theme {
-      font-size: 1rem;
+   .themeSelector {
+      display: flex;
+      align-items: inherit;
+
+      .theme {
+         font-size: 1rem;
+         margin-top: 1rem;
+         margin-right: 0.8rem;
+      }
+
+      .switch {
+
+         .themeNumbers {
+            margin-top: auto;
+            display: flex;
+            justify-content: space-between;
+            padding: 0 0.5rem;
+
+            & > p {
+               font-size: 0.8rem;
+            }
+         }
+      }
    }
 }
