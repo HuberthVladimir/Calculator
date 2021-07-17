@@ -9,6 +9,7 @@ export const Key = (props) => {
    return (
       <button
          className={`key ${props.largeKey} ${props.letterKey} ${props.equalKey} ${theme}`}
+         onClick={props.handleClick}
       >
          {props.children}
       </button>
