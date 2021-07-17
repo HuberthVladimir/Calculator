@@ -6,7 +6,6 @@ import './styles.scss'
 
 export const KeyScreen = () => {
    const { theme, valueScreen, setValueScreen, equation, setEquation, secondValueScreen, setSecondValueScreen, setResult, resultState, setResultState } = useContext(ThemeContext)
-   // implementar logica para se deixar botão com . antes da equação ele ser deletado
 
    const resetAction = () => {
       setEquation(null)
